@@ -15,6 +15,9 @@ This Express application allows users to add both deposits and expenses, whether
 - `WHEN the user reestablishes an internet connection`
 - `THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated`
 
+## Deployed Application
+[Deployed Application](https://safe-badlands-31867.herokuapp.com/)
+
 
 [Video Walkthrough of Deployed Application](https://watch.screencastify.com/v/IL2beiRAzhuenJB5a2sj)        
 
