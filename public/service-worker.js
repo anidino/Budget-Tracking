@@ -1,6 +1,6 @@
 //code here is from Module 19 and class activity 5 for week 19 //
 // const APP_PREFIX = 'Budget'
-const CACHE_NAME = 'my-site-cache-v2';
+const CACHE_NAME = 'static-cache-v2';
 const DATA_CACHE_NAME = 'data-cache-v2';
 // const APP_PREFIX = 'FoodEvent-';     
 // const VERSION = 'version_01';
