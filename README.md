@@ -21,4 +21,6 @@ This Express application allows users to add both deposits and expenses, whether
 
 [Video Walkthrough of Deployed Application](https://watch.screencastify.com/v/IL2beiRAzhuenJB5a2sj)        
 
-(also downloaded mp4 if needed)
+## Resources Used 
+Trilogy Module 19 PWAs
+Class Activity #5 Week 19 
