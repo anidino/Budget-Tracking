@@ -26,3 +26,6 @@ This Express application allows users to add both deposits and expenses, whether
 - Trilogy Module 19 PWAs
 - Trilogy Module 18 NoSQL
 - Class Activity #5 Week 19 
+
+## Known Issues
+- Bug in Js/index.js starter code 
