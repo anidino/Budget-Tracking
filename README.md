@@ -20,8 +20,7 @@ This Express application allows users to add both deposits and expenses, whether
 
 ## Deployed Application
 [Deployed Application](https://safe-badlands-31867.herokuapp.com/)
-
-[Video Walkthrough of Deployed Application](https://watch.screencastify.com/v/IL2beiRAzhuenJB5a2sj)        
+        
 
 ## Resources Used 
 - Trilogy Module 19 PWAs
