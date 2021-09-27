@@ -135,9 +135,15 @@ function sendTransaction(isAdding) {
     }
   })
   .catch(err => {
+    if(!err) { 
     // fetch failed, so save in indexed db
-    saveRecord(transaction);
+    saveRecord(transaction)
 
+    .catch(err => {
+			// set reference to redirect back here
+			console.log(err);
+		  })
+    }
     // clear form
     nameEl.value = "";
     amountEl.value = "";
