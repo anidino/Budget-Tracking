@@ -1,21 +1,19 @@
 //code here is from Module 19 and class activity 5 for week 19 //
-// const APP_PREFIX = 'Budget'
-const CACHE_NAME = 'static-cache-v2';
+const APP_PREFIX = 'Budget-';
+const VERSION = 'version_01';
 const DATA_CACHE_NAME = 'data-cache-v2';
-// const APP_PREFIX = 'FoodEvent-';     
-// const VERSION = 'version_01';
-// const CACHE_NAME = APP_PREFIX + VERSION
+const CACHE_NAME = APP_PREFIX + VERSION
 const FILES_TO_CACHE = [
-	"/",
+	// "/",
   "/index.html",
   "/manifest.json",
   "/css/style.css",
-//   "/js/ibd.js",
+  "/js/ibd.js",
   "/js/index.js",
-  '/icons/icon-72x72.png',
-  '/icons/icon-96x96.png',
-  '/icons/icon-128x128.png',
-  '/icons/icon-144x144.png',
+//   '/icons/icon-72x72.png',
+//   '/icons/icon-96x96.png',
+//   '/icons/icon-128x128.png',
+//   '/icons/icon-144x144.png',
   
 //   "./dist/app.bundle.js",
   

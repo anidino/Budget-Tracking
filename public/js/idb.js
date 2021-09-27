@@ -1,7 +1,7 @@
-// code from module 18 lesson 4 (creating the indexdb connection)
+// code from module 18 lesson 4 (creating the indexedDB connection)
 //replace pizza functions with transaction/databasecheck function 
 let db;
-const request = indexdb.open("budget", 1);
+const request = indexedDB.open("budget", 1);
 
 request.onupgradeneeded = function(event) {
 	const db = event.target.result;
@@ -12,7 +12,7 @@ request.onupgradeneeded = function(event) {
 	// when db is successfully created with its object store (from onupgradedneeded event above), save reference to db in global variable
 	db = event.target.result;
 
-  // check if app is online, if yes run checkDatabase() function to send all local db data to api
+  // check if app is online, if yes run function to send all local db data to api
   if (navigator.onLine) {
    uploadData();
   }

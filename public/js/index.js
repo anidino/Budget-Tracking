@@ -139,14 +139,15 @@ function sendTransaction(isAdding) {
     // fetch failed, so save in indexed db
     saveRecord(transaction)
 
-    .catch(err => {
-			// set reference to redirect back here
-			console.log(err);
-		  })
-    }
+    // .catch(err => {
+		
+		// 	console.log(err);
+		//   })
+    
     // clear form
     nameEl.value = "";
     amountEl.value = "";
+  }
   });
 }
 
